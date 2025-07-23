@@ -1,0 +1,4 @@
+framework module TenMaxBeaconSDK {
+  header "TenMaxBeaconSDK-Swift.h"
+  requires objc
+}

@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0973232C2DA3D84100227420 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097323252DA3D81100227420 /* AppDelegate.swift */; };
+		097323322DA4246200227420 /* NotificationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097323312DA4246200227420 /* NotificationHelper.swift */; };
+		098829BA2DD5E764001AF9F8 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098829B92DD5E764001AF9F8 /* MainPageViewController.swift */; };
+		098829BC2DD5F013001AF9F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098829BB2DD5F013001AF9F8 /* SceneDelegate.swift */; };
+		09E608312E0277EC002C3F3E /* PermissionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E608302E0277EC002C3F3E /* PermissionManager.swift */; };
+		09E608DA2E058D70002C3F3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 097323262DA3D81100227420 /* Assets.xcassets */; };
+		09E608DB2E058D71002C3F3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 097323282DA3D81100227420 /* LaunchScreen.storyboard */; };
+		09F476F32E2E4D0300E37CF6 /* TenMaxBeaconSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09F476F12E2E4CFF00E37CF6 /* TenMaxBeaconSDK.xcframework */; };
+		09F476F42E2E4D0300E37CF6 /* TenMaxBeaconSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 09F476F12E2E4CFF00E37CF6 /* TenMaxBeaconSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6186BEDF2DDD0470A8AC0E5E /* CongratulationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CED91B78EA489EA045D659 /* CongratulationsViewController.swift */; };
+		7DBDA46B2DA33C7A4BE34A4D /* AppBeaconManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571DCE372300A4549F435278 /* AppBeaconManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		095B39812E1A409C00FC512D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				09F476F42E2E4D0300E37CF6 /* TenMaxBeaconSDK.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		097323252DA3D81100227420 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		097323262DA3D81100227420 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		097323272DA3D81100227420 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		097323282DA3D81100227420 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		097323312DA4246200227420 /* NotificationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationHelper.swift; sourceTree = "<group>"; };
+		098829B92DD5E764001AF9F8 /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		098829BB2DD5F013001AF9F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		09E608302E0277EC002C3F3E /* PermissionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionManager.swift; sourceTree = "<group>"; };
+		09F476F12E2E4CFF00E37CF6 /* TenMaxBeaconSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TenMaxBeaconSDK.xcframework; sourceTree = "<group>"; };
+		1A2B3C4D5E6F7G8H9I0J1K1A /* TenMaxBeaconPublicDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TenMaxBeaconPublicDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		571DCE372300A4549F435278 /* AppBeaconManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBeaconManager.swift; sourceTree = "<group>"; };
+		79CED91B78EA489EA045D659 /* CongratulationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CongratulationsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A2B3C4D5E6F7G8H9I0J1K1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09F476F32E2E4D0300E37CF6 /* TenMaxBeaconSDK.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0973232B2DA3D81100227420 /* TenMaxBeaconPublicDemoApp */ = {
+			isa = PBXGroup;
+			children = (
+				09E608302E0277EC002C3F3E /* PermissionManager.swift */,
+				097323312DA4246200227420 /* NotificationHelper.swift */,
+				097323252DA3D81100227420 /* AppDelegate.swift */,
+				098829BB2DD5F013001AF9F8 /* SceneDelegate.swift */,
+				097323262DA3D81100227420 /* Assets.xcassets */,
+				097323272DA3D81100227420 /* Info.plist */,
+				097323282DA3D81100227420 /* LaunchScreen.storyboard */,
+				79CED91B78EA489EA045D659 /* CongratulationsViewController.swift */,
+				098829B92DD5E764001AF9F8 /* MainPageViewController.swift */,
+				571DCE372300A4549F435278 /* AppBeaconManager.swift */,
+			);
+			path = TenMaxBeaconPublicDemoApp;
+			sourceTree = "<group>";
+		};
+		1A2B3C4D5E6F7G8H9I0J1K1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A2B3C4D5E6F7G8H9I0J1K1A /* TenMaxBeaconPublicDemoApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A2B3C4D5E6F7G8H9I0J1K1E = {
+			isa = PBXGroup;
+			children = (
+				0973232B2DA3D81100227420 /* TenMaxBeaconPublicDemoApp */,
+				1A2B3C4D5E6F7G8H9I0J1K1C /* Products */,
+				1A2B3C4D5E6F7G8H9I0J1K8Z /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1A2B3C4D5E6F7G8H9I0J1K8Z /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09F476F12E2E4CFF00E37CF6 /* TenMaxBeaconSDK.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A2B3C4D5E6F7G8H9I0J1K1F /* TenMaxBeaconPublicDemoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A2B3C4D5E6F7G8H9I0J1K1G /* Build configuration list for PBXNativeTarget "TenMaxBeaconPublicDemoApp" */;
+			buildPhases = (
+				1A2B3C4D5E6F7G8H9I0J1K1H /* Sources */,
+				1A2B3C4D5E6F7G8H9I0J1K1B /* Frameworks */,
+				1A2B3C4D5E6F7G8H9I0J1K1I /* Resources */,
+				095B39812E1A409C00FC512D /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TenMaxBeaconPublicDemoApp;
+			productName = TenMaxBeaconPublicDemoApp;
+			productReference = 1A2B3C4D5E6F7G8H9I0J1K1A /* TenMaxBeaconPublicDemoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A2B3C4D5E6F7G8H9I0J1K1J /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					1A2B3C4D5E6F7G8H9I0J1K1F = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 1A2B3C4D5E6F7G8H9I0J1K1K /* Build configuration list for PBXProject "TenMaxBeaconPublicDemoApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A2B3C4D5E6F7G8H9I0J1K1E;
+			productRefGroup = 1A2B3C4D5E6F7G8H9I0J1K1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A2B3C4D5E6F7G8H9I0J1K1F /* TenMaxBeaconPublicDemoApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A2B3C4D5E6F7G8H9I0J1K1I /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09E608DA2E058D70002C3F3E /* Assets.xcassets in Resources */,
+				09E608DB2E058D71002C3F3E /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A2B3C4D5E6F7G8H9I0J1K1H /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				098829BA2DD5E764001AF9F8 /* MainPageViewController.swift in Sources */,
+				0973232C2DA3D84100227420 /* AppDelegate.swift in Sources */,
+				7DBDA46B2DA33C7A4BE34A4D /* AppBeaconManager.swift in Sources */,
+				097323322DA4246200227420 /* NotificationHelper.swift in Sources */,
+				6186BEDF2DDD0470A8AC0E5E /* CongratulationsViewController.swift in Sources */,
+				09E608312E0277EC002C3F3E /* PermissionManager.swift in Sources */,
+				098829BC2DD5F013001AF9F8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1A2B3C4D5E6F7G8H9I0J1K1L /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A2B3C4D5E6F7G8H9I0J1K1M /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A2B3C4D5E6F7G8H9I0J1K1N /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 9;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 992GT7RJ39;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TenMaxBeaconPublicDemoApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Beacon Demo";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "We need Bluetooth permission to scan for nearby Beacons in order to provide relevant services.";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "This app uses Bluetooth to scan for nearby Beacons and provide location-based advertising services.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This app needs \"Always\" location access to continuously detect beacons in the background, even when the app is closed or not in use. This enables seamless delivery of location-based advertising services and notifications.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs location access to detect beacons and provide location-based advertising services. For full background beacon detection, please grant \"Always\" location access.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "This app would like to access IDFA to provide personalized advertising and improve ad targeting effectiveness.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tenmax.beacon.demo.public;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A2B3C4D5E6F7G8H9I0J1K1O /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 9;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 992GT7RJ39;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TenMaxBeaconPublicDemoApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Beacon Demo";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "We need Bluetooth permission to scan for nearby Beacons in order to provide relevant services.";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "This app uses Bluetooth to scan for nearby Beacons and provide location-based advertising services.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This app needs \"Always\" location access to continuously detect beacons in the background, even when the app is closed or not in use. This enables seamless delivery of location-based advertising services and notifications.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs location access to detect beacons and provide location-based advertising services. For full background beacon detection, please grant \"Always\" location access.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "This app would like to access IDFA to provide personalized advertising and improve ad targeting effectiveness.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tenmax.beacon.demo.public;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A2B3C4D5E6F7G8H9I0J1K1G /* Build configuration list for PBXNativeTarget "TenMaxBeaconPublicDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A2B3C4D5E6F7G8H9I0J1K1N /* Debug */,
+				1A2B3C4D5E6F7G8H9I0J1K1O /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A2B3C4D5E6F7G8H9I0J1K1K /* Build configuration list for PBXProject "TenMaxBeaconPublicDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A2B3C4D5E6F7G8H9I0J1K1L /* Debug */,
+				1A2B3C4D5E6F7G8H9I0J1K1M /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A2B3C4D5E6F7G8H9I0J1K1J /* Project object */;
+}
