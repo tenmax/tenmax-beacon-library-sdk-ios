@@ -189,10 +189,9 @@ let clientProfile = ClientProfile(
     advertisingId: advertisingId
 )
 
-// 2. Configure SDK with environment
+// 2. Configure SDK
 TenMaxAdBeaconSDK.shared().initiate(
     clientProfile: clientProfile,
-    environment: .stage,
     callback: beaconCallback
 )
 

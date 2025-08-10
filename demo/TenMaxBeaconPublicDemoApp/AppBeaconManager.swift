@@ -55,8 +55,7 @@ class AppBeaconManager {
 
         TenMaxAdBeaconSDK.shared().initiate(
             clientProfile: clientProfile,
-            callback: self,
-            environment: .stage
+            callback: self
         )
 
         isInitialized = true
