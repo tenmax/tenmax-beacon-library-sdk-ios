@@ -39,18 +39,23 @@ class AppBeaconManager {
         }
     }
     
+    private var appName: String {
+        return Bundle.main.object(forInfoDictionaryKey: "CFBundleDisplayName") as? String
+            ?? Bundle.main.object(forInfoDictionaryKey: "CFBundleName") as? String
+            ?? "Beacon Demo"
+    }
+    
     private func setupBeaconSDK() {
         let clientProfile = ClientProfile(
             phoneNumber: phoneNumber,
             email: email,
-            appName: "TenMaxBeaconPublicDemo",
+            appName: appName,
             advertisingId: advertisingId
         )
 
         TenMaxAdBeaconSDK.shared().initiate(
             clientProfile: clientProfile,
-            callback: self,
-            environment: .stage
+            callback: self
         )
 
         isInitialized = true
@@ -60,7 +65,7 @@ class AppBeaconManager {
         let clientProfile = ClientProfile(
             phoneNumber: phoneNumber,
             email: email,
-            appName: "TenMaxBeaconPublicDemo",
+            appName: appName,
             advertisingId: advertisingId
         )
 

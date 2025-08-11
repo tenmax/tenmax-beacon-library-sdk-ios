@@ -92,3 +92,5 @@ iOSInjectionProject/
 # macOS
 .DS_Store
 release
+demo/Frameworks/TenMaxBeaconSDK-beta.xcframework
+demo/Frameworks/TenMaxBeaconSDK-beta.xcframework

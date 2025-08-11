@@ -14,7 +14,6 @@ A Swift package for integrating TenMax Beacon tracking functionality into iOS ap
 - **Beacon Deduplication**: Prevents processing duplicate beacon data within 30-second time windows (configurable)
 - **Network Connectivity**: Automatic network connectivity checking before API calls using Reachability
 - **Notification Management**: Handles local notifications with click tracking and creative data content support
-- **Environment Support**: Separate configurations for staging and production environments with sdk.plist configuration
 - **Thread Safety**: All operations are thread-safe with proper concurrent queue management and automatic main thread callback execution
 - **Comprehensive Testing**: Extensive test suite with Quick and Nimble frameworks and mock infrastructure
 - **Privacy Compliance**: Includes PrivacyInfo.xcprivacy for App Store privacy requirements
@@ -35,7 +34,7 @@ Adding TenMaxBeaconSDK as a dependency into your `Package.swift` and indicating 
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/tenmax/tenmax-beacon-library-sdk-ios", .upToNextMajor(from: "1.0.0"))
+    .package(url: "https://github.com/tenmax/tenmax-beacon-library-sdk-ios", .upToNextMajor(from: "1.0.1"))
 ]
 ```
 
@@ -54,7 +53,7 @@ let package = Package(
         .library(name: "YourPackageName", targets: ["YourTargetName"]),
     ],
     dependencies: [
-      .package(url: "https://github.com/tenmax/tenmax-beacon-library-sdk-ios", .upToNextMajor(from: "1.0.0"))
+      .package(url: "https://github.com/tenmax/tenmax-beacon-library-sdk-ios", .upToNextMajor(from: "1.0.1"))
     ],
     targets: [
         .target(
@@ -72,7 +71,7 @@ let package = Package(
 [Carthage](https://github.com/Carthage/Carthage) is a decentralized dependency manager that builds your dependencies and provides you with binary frameworks. To integrate TenMaxBeaconSDK into your Xcode project using Carthage, specify it in your `Cartfile`:
 
 ```
-binary "https://raw.githubusercontent.com/tenmax/tenmax-beacon-library-sdk-ios/main/public/TenMaxBeaconSDK.json"
+binary "https://raw.githubusercontent.com/tenmax/tenmax-beacon-library-sdk-ios/main/TenMaxBeaconSDK.json"
 ```
 
 After Carthage downloaded the `TenMaxBeaconSDK.xcframework` file, you can find the file in the folder `./Carthage/Build`. Make sure you have added `TenMaxBeaconSDK.xcframework` to the "Linked Frameworks and Libraries" section of your target.
@@ -140,20 +139,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         TenMaxAdBeaconSDK.shared().initiate(
             clientProfile: clientProfile,
             callback: callback,
-            environment: .production
         )
 
         return true
     }
 }
 ```
-
-**Note**: You must specify the environment (`.stage` or `.production`) during initialization. The SDK will select the appropriate API endpoints based on the environment from sdk.plist configuration file:
-
-- **Stage Environment**: Uses beta-beacon-event.tenmax.io for events and storage.googleapis.com for creative CDN
-- **Production Environment**: Uses beacon-event.tenmax.io for events and dsp-creative-cdn.tenmax.io for creative CDN
-
-Environment can only be set during initialization and cannot be changed later.
 
 ## Usage
 
@@ -209,7 +200,7 @@ print("SDK is scanning: \(isScanning)")
 let updatedProfile = ClientProfile(
     phoneNumber: "0987654321",
     email: "new-email@example.com",
-    appName: "YourAppName",
+    appName: nil,
     advertisingId: "updated-advertising-id"
 )
 TenMaxAdBeaconSDK.shared().updateClientProfile(updatedProfile)
@@ -241,7 +232,7 @@ let profileAfterRestart = ClientProfile(appName: "YourApp")
 let profile = ClientProfile(
     phoneNumber: "0912345678",
     email: "user@example.com",
-    appName: "YourApp",
+    appName: nil,
     advertisingId: nil  // SDK will auto-retrieve system IDFA if authorized
 )
 
@@ -288,11 +279,15 @@ The `demo` folder contains a complete demonstration application showing:
 - Creative content display
 - Notification handling
 
-To run the demo:
+### Running the Demo
 
+**Using Xcode**
 1. Navigate to `demo`
 2. Open `TenMaxBeaconPublicDemoApp.xcworkspace`
-3. Build and run on a physical device (required for beacon functionality)
+3. Select the appropriate scheme:
+   - `TenMaxBeaconPublicDemoApp-Beta` for debug environment
+   - `TenMaxBeaconPublicDemoApp-Release` for release environment
+4. Build and run on a physical device (required for beacon functionality)
 
 ## Error Handling
 
@@ -391,26 +386,6 @@ class BeaconCallback: TenMaxAdBeaconCallback {
 
 ## Advanced Features
 
-### Environment Configuration
-
-The SDK supports both staging and production environments:
-
-```swift
-// For development and testing
-TenMaxAdBeaconSDK.shared().initiate(
-    clientProfile: clientProfile,
-    environment: .stage,
-    callback: callback
-)
-
-// For production release
-TenMaxAdBeaconSDK.shared().initiate(
-    clientProfile: clientProfile,
-    environment: .production,
-    callback: callback
-)
-```
-
 ### Background Scanning
 
 The SDK supports background beacon scanning when proper permissions are granted and background modes are configured in your app's Info.plist.
@@ -423,8 +398,9 @@ All SDK callbacks are automatically executed on the main thread, ensuring safe U
 
 - **iOS**: 12.0 or later
 - **Swift**: 5.5 or later
-- **Xcode**: 16.2.0 or later
+- **Xcode**: 16.2.0 or later (recommended for latest features)
 - **Deployment Target**: iOS 12.0+
+- **Swift Tools Version**: 5.5 (as specified in Package.swift)
 
 ### Device Requirements
 
@@ -432,6 +408,7 @@ All SDK callbacks are automatically executed on the main thread, ensuring safe U
 - **Location Services**: Required for beacon detection
 - **Background App Refresh**: Recommended for optimal background scanning
 - **Device**: Physical iOS device (beacon functionality requires hardware)
+- **Simulator Support**: Limited functionality on iOS Simulator (no actual beacon detection)
 
 ## Privacy and Data Handling
 
@@ -478,7 +455,7 @@ func requestUserConsent() {
         let profile = ClientProfile(
             phoneNumber: userPhoneNumber,
             email: userEmail,
-            appName: "YourApp"
+            appName: nil  // Auto-detects from bundle info
         )
         // Initialize SDK with profile
     }
