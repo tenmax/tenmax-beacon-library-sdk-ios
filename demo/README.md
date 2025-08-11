@@ -156,17 +156,12 @@ The demo app uses an Xcode Workspace that includes:
 
 ### Build and Run
 
-**Option 1: Using Build Script**
-```bash
-./build_and_run.sh
-```
-
-**Option 2: Direct Xcode**
+**Option 1: Direct Xcode**
 ```bash
 open TenMaxBeaconPublicDemoApp.xcworkspace
 ```
 
-**Option 3: Command Line Build**
+**Option 2: Command Line Build**
 ```bash
 xcodebuild -workspace TenMaxBeaconPublicDemoApp.xcworkspace \
            -scheme TenMaxBeaconPublicDemoApp \
