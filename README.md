@@ -1,6 +1,6 @@
 # TenMax Beacon SDK for iOS
 
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](./VERSION)
+[![Version](https://img.shields.io/badge/version-1.0.1-blue.svg)](./VERSION)
 [![Platform](https://img.shields.io/badge/platform-iOS%2012.0%2B-lightgrey.svg)](https://developer.apple.com/ios/)
 [![Swift](https://img.shields.io/badge/swift-5.5%2B-orange.svg)](https://swift.org/)
 
@@ -11,7 +11,7 @@ A Swift package for integrating TenMax Beacon tracking functionality into iOS ap
 - **Beacon Detection**: Supports both Apple iBeacon and custom Bluetooth beacon detection with sequential scanning
 - **Background Scanning**: Continues beacon scanning even when the app is in the background using Core Location
 - **Frequency Capping**: Intelligent frequency control to prevent spam notifications with configurable intervals
-- **Beacon Deduplication**: Prevents processing duplicate beacon data within 30-second time windows (configurable)
+- **Beacon Deduplication**: Prevents processing duplicate beacon data within 30-second time windows
 - **Network Connectivity**: Automatic network connectivity checking before API calls using Reachability
 - **Notification Management**: Handles local notifications with click tracking and creative data content support
 - **Thread Safety**: All operations are thread-safe with proper concurrent queue management and automatic main thread callback execution
