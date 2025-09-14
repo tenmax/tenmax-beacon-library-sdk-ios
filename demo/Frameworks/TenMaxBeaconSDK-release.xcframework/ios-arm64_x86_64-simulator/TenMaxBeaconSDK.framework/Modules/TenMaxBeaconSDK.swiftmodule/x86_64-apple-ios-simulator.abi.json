@@ -3454,394 +3454,408 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/Beacon\/AbstractBeaconScanner.swift",
+      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/ios\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/Beacon\/AbstractBeaconScanner.swift",
       "kind": "BooleanLiteral",
       "offset": 175,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/Beacon\/AbstractBeaconScanner.swift",
+      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/ios\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/Beacon\/AbstractBeaconScanner.swift",
       "kind": "BooleanLiteral",
       "offset": 252,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/AbstractWebService.swift",
+      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/ios\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/AbstractWebService.swift",
       "kind": "Dictionary",
       "offset": 413,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/AbstractWebService.swift",
+      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/ios\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/AbstractWebService.swift",
       "kind": "Dictionary",
       "offset": 454,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/Beacon\/Beacon.swift",
+      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/ios\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/Beacon\/Beacon.swift",
       "kind": "IntegerLiteral",
       "offset": 680,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/Beacon\/Beacon.swift",
+      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/ios\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/Beacon\/Beacon.swift",
       "kind": "IntegerLiteral",
       "offset": 701,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/Beacon\/BeaconDeduplicator.swift",
+      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/ios\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/Beacon\/BeaconDeduplicator.swift",
       "kind": "Dictionary",
       "offset": 2544,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/Beacon\/BeaconDeduplicator.swift",
+      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/ios\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/Beacon\/BeaconDeduplicator.swift",
       "kind": "StringLiteral",
       "offset": 2830,
       "length": 32,
       "value": "\"com.tenmax.beacon.deduplicator\""
     },
     {
-      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/Beacon\/BeaconDeduplicator.swift",
+      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/ios\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/Beacon\/BeaconDeduplicator.swift",
       "kind": "IntegerLiteral",
       "offset": 3665,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/Beacon\/BeaconManager.swift",
+      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/ios\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/Beacon\/BeaconManager.swift",
       "kind": "BooleanLiteral",
       "offset": 164,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/Beacon\/BeaconManager.swift",
+      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/ios\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/Beacon\/BeaconManager.swift",
       "kind": "BooleanLiteral",
       "offset": 505,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/Beacon\/BeaconManager.swift",
+      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/ios\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/Beacon\/BeaconManager.swift",
       "kind": "IntegerLiteral",
       "offset": 610,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/ClientProfile.swift",
+      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/ios\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/ClientProfile.swift",
       "kind": "StringLiteral",
       "offset": 2815,
       "length": 29,
       "value": "\"TenMaxBeaconSDK.PhoneNumber\""
     },
     {
-      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/ClientProfile.swift",
+      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/ios\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/ClientProfile.swift",
       "kind": "StringLiteral",
       "offset": 2879,
       "length": 23,
       "value": "\"TenMaxBeaconSDK.Email\""
     },
     {
-      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/CreativeThrottle.swift",
+      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/ios\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/Creative.swift",
+      "kind": "Array",
+      "offset": 717,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/ios\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/CreativeThrottle.swift",
       "kind": "Array",
       "offset": 475,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/CreativeThrottle.swift",
+      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/ios\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/CreativeThrottle.swift",
       "kind": "Dictionary",
       "offset": 1222,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/CreativeThrottle.swift",
+      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/ios\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/CreativeThrottle.swift",
       "kind": "StringLiteral",
       "offset": 1271,
       "length": 37,
       "value": "\"com.tenmax.beacon.creative.throttle\""
     },
     {
-      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/HttpRequestBuilder.swift",
+      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/ios\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/HttpRequestBuilder.swift",
       "kind": "Dictionary",
       "offset": 196,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/HttpRequestBuilder.swift",
+      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/ios\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/HttpRequestBuilder.swift",
       "kind": "Dictionary",
       "offset": 252,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/HttpRequestBuilder.swift",
+      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/ios\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/HttpRequestBuilder.swift",
       "kind": "StringLiteral",
       "offset": 2542,
       "length": 5,
       "value": "\"GET\""
     },
     {
-      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/HttpRequestBuilder.swift",
+      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/ios\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/HttpRequestBuilder.swift",
       "kind": "StringLiteral",
       "offset": 2564,
       "length": 6,
       "value": "\"POST\""
     },
     {
-      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/HttpRequestBuilder.swift",
+      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/ios\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/HttpRequestBuilder.swift",
       "kind": "StringLiteral",
       "offset": 2586,
       "length": 5,
       "value": "\"PUT\""
     },
     {
-      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/HttpRequestBuilder.swift",
+      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/ios\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/HttpRequestBuilder.swift",
       "kind": "StringLiteral",
       "offset": 2610,
       "length": 8,
       "value": "\"DELETE\""
     },
     {
-      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/Beacon\/LocationAuthorizationStatus.swift",
+      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/ios\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/Beacon\/LocationAuthorizationStatus.swift",
       "kind": "IntegerLiteral",
       "offset": 104,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/Beacon\/LocationAuthorizationStatus.swift",
+      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/ios\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/Beacon\/LocationAuthorizationStatus.swift",
       "kind": "IntegerLiteral",
       "offset": 128,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/Beacon\/LocationAuthorizationStatus.swift",
+      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/ios\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/Beacon\/LocationAuthorizationStatus.swift",
       "kind": "IntegerLiteral",
       "offset": 148,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/Beacon\/LocationAuthorizationStatus.swift",
+      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/ios\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/Beacon\/LocationAuthorizationStatus.swift",
       "kind": "IntegerLiteral",
       "offset": 178,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/Beacon\/LocationAuthorizationStatus.swift",
+      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/ios\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/Beacon\/LocationAuthorizationStatus.swift",
       "kind": "IntegerLiteral",
       "offset": 211,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/Utility\/Reachability.swift",
+      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/ios\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/Utility\/Reachability.swift",
       "kind": "StringLiteral",
       "offset": 443,
       "length": 33,
       "value": "\"ReachabilityChangedNotification\""
     },
     {
-      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/Utility\/Reachability.swift",
+      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/ios\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/Utility\/Reachability.swift",
       "kind": "StringLiteral",
       "offset": 571,
       "length": 21,
       "value": "\"reachabilityChanged\""
     },
     {
-      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/TenMaxAdBeaconError.swift",
+      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/ios\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/TenMaxAdBeaconError.swift",
       "kind": "IntegerLiteral",
       "offset": 6008,
       "length": 30,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/TenMaxAdBeaconError.swift",
+      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/ios\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/TenMaxAdBeaconError.swift",
       "kind": "IntegerLiteral",
       "offset": 6143,
       "length": 27,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/TenMaxAdBeaconError.swift",
+      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/ios\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/TenMaxAdBeaconError.swift",
       "kind": "IntegerLiteral",
       "offset": 6226,
       "length": 17,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/TenMaxAdBeaconError.swift",
+      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/ios\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/TenMaxAdBeaconError.swift",
       "kind": "IntegerLiteral",
       "offset": 6312,
       "length": 25,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/TenMaxAdBeaconError.swift",
+      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/ios\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/TenMaxAdBeaconError.swift",
       "kind": "IntegerLiteral",
       "offset": 6415,
       "length": 22,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/TenMaxAdBeaconError.swift",
+      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/ios\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/TenMaxAdBeaconError.swift",
       "kind": "IntegerLiteral",
       "offset": 6515,
       "length": 16,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/TenMaxAdBeaconError.swift",
+      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/ios\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/TenMaxAdBeaconError.swift",
       "kind": "IntegerLiteral",
       "offset": 6598,
       "length": 15,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/TenMaxAdBeaconError.swift",
+      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/ios\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/TenMaxAdBeaconError.swift",
       "kind": "IntegerLiteral",
       "offset": 6688,
       "length": 18,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/TenMaxAdBeaconError.swift",
+      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/ios\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/TenMaxAdBeaconError.swift",
       "kind": "IntegerLiteral",
       "offset": 6798,
       "length": 14,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/TenMaxAdBeaconError.swift",
+      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/ios\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/TenMaxAdBeaconError.swift",
       "kind": "IntegerLiteral",
       "offset": 6869,
       "length": 29,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/TenMaxAdBeaconError.swift",
+      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/ios\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/TenMaxAdBeaconError.swift",
       "kind": "IntegerLiteral",
       "offset": 6972,
       "length": 20,
       "value": "11"
     },
     {
-      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/TenMaxAdBeaconError.swift",
+      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/ios\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/TenMaxAdBeaconError.swift",
       "kind": "IntegerLiteral",
       "offset": 7053,
       "length": 7,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/TenMaxAdBeaconSDK.swift",
+      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/ios\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/TenMaxAdBeaconSDK.swift",
       "kind": "BooleanLiteral",
       "offset": 5336,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/TenMaxAdCreative.swift",
+      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/ios\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/TenMaxAdCreative.swift",
       "kind": "IntegerLiteral",
       "offset": 4521,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/TenMaxAdCreative.swift",
+      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/ios\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/TenMaxAdCreative.swift",
       "kind": "IntegerLiteral",
       "offset": 4541,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/TenMaxAdCreative.swift",
+      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/ios\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/TenMaxAdCreative.swift",
       "kind": "IntegerLiteral",
       "offset": 4562,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/TenMaxAdCreative.swift",
+      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/ios\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/TenMaxAdCreative.swift",
       "kind": "StringLiteral",
       "offset": 4583,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/Utility\/TenMaxLogger.swift",
+      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/ios\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/Utility\/TenMaxLogger.swift",
       "kind": "StringLiteral",
       "offset": 70,
       "length": 7,
       "value": "\"DEBUG\""
     },
     {
-      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/Utility\/TenMaxLogger.swift",
+      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/ios\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/Utility\/TenMaxLogger.swift",
       "kind": "StringLiteral",
       "offset": 94,
       "length": 6,
       "value": "\"INFO\""
     },
     {
-      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/Utility\/TenMaxLogger.swift",
+      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/ios\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/Utility\/TenMaxLogger.swift",
       "kind": "StringLiteral",
       "offset": 120,
       "length": 9,
       "value": "\"WARNING\""
     },
     {
-      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/Utility\/TenMaxLogger.swift",
+      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/ios\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/Utility\/TenMaxLogger.swift",
       "kind": "StringLiteral",
       "offset": 147,
       "length": 7,
       "value": "\"ERROR\""
     },
     {
-      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/Utility\/TenMaxLogger.swift",
+      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/ios\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/Utility\/TenMaxLogger.swift",
       "kind": "StringLiteral",
       "offset": 213,
       "length": 17,
       "value": "\"TenMaxBeaconSDK\""
     },
     {
-      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/UserEventWebService.swift",
+      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/ios\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/UserEventWebService.swift",
       "kind": "StringLiteral",
       "offset": 63,
       "length": 9,
       "value": "\"request\""
     },
     {
-      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/UserEventWebService.swift",
+      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/ios\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/UserEventWebService.swift",
       "kind": "StringLiteral",
       "offset": 97,
       "length": 14,
       "value": "\"notification\""
     },
     {
-      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/UserEventWebService.swift",
+      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/ios\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/UserEventWebService.swift",
       "kind": "StringLiteral",
-      "offset": 129,
+      "offset": 142,
+      "length": 21,
+      "value": "\"silent-notification\""
+    },
+    {
+      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/ios\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/UserEventWebService.swift",
+      "kind": "StringLiteral",
+      "offset": 181,
       "length": 7,
       "value": "\"click\""
     },
     {
-      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/UserEventWebService.swift",
+      "filePath": "\/Users\/pickerweng\/Workspace\/tenmax\/beacon-sdk\/ios\/tenmax-beacon-sdk-ios\/Sources\/TenMaxBeaconSDK\/UserEventWebService.swift",
       "kind": "IntegerLiteral",
-      "offset": 429,
+      "offset": 481,
       "length": 4,
       "value": "1000"
     }

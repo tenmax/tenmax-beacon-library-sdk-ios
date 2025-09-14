@@ -14,8 +14,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "TenMaxBeaconSDK",
-            url: "https://github.com/tenmax/tenmax-beacon-library-sdk-ios/releases/download/v1.0.0/TenMaxBeaconSDK.xcframework.zip",
-            checksum: "95fdf68e64fcf4c4ec06b4f4730700a2366708244cd222a6ca9f94dbaf5b6c4d"
+            url: "https://github.com/tenmax/tenmax-beacon-library-sdk-ios/releases/download/v1.1.0/TenMaxBeaconSDK.xcframework.zip",
+            checksum: "8d8eec872f20bf72d2f01acf33c1841f12100c99db5fb12fbc1ce30ae9a365e9"
         )
     ]
 )
