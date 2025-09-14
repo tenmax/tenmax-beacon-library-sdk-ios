@@ -34,7 +34,7 @@ Adding TenMaxBeaconSDK as a dependency into your `Package.swift` and indicating 
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/tenmax/tenmax-beacon-library-sdk-ios", .upToNextMajor(from: "1.0.1"))
+    .package(url: "https://github.com/tenmax/tenmax-beacon-library-sdk-ios", .upToNextMajor(from: "1.1.0"))
 ]
 ```
 
@@ -53,7 +53,7 @@ let package = Package(
         .library(name: "YourPackageName", targets: ["YourTargetName"]),
     ],
     dependencies: [
-      .package(url: "https://github.com/tenmax/tenmax-beacon-library-sdk-ios", .upToNextMajor(from: "1.0.1"))
+      .package(url: "https://github.com/tenmax/tenmax-beacon-library-sdk-ios", .upToNextMajor(from: "1.1.0"))
     ],
     targets: [
         .target(
