@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		09111BD62E48E40F005925DA /* TenMaxBeaconSDK-release.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09AB65952E48D6CC00C81BA9 /* TenMaxBeaconSDK-release.xcframework */; };
-		09111BD72E48E40F005925DA /* TenMaxBeaconSDK-release.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 09AB65952E48D6CC00C81BA9 /* TenMaxBeaconSDK-release.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		09635FC92E5EDD35005B9F6C /* TenMaxBeaconSDK-beta.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09635FC72E5EDD32005B9F6C /* TenMaxBeaconSDK-beta.xcframework */; };
+		09635FCA2E5EDD36005B9F6C /* TenMaxBeaconSDK-beta.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 09635FC72E5EDD32005B9F6C /* TenMaxBeaconSDK-beta.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0973232C2DA3D84100227420 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097323252DA3D81100227420 /* AppDelegate.swift */; };
 		097323322DA4246200227420 /* NotificationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097323312DA4246200227420 /* NotificationHelper.swift */; };
 		098829BA2DD5E764001AF9F8 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098829B92DD5E764001AF9F8 /* MainPageViewController.swift */; };
@@ -27,7 +27,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				09111BD72E48E40F005925DA /* TenMaxBeaconSDK-release.xcframework in Embed Frameworks */,
+				09635FCA2E5EDD36005B9F6C /* TenMaxBeaconSDK-beta.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -35,6 +35,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		09635FC72E5EDD32005B9F6C /* TenMaxBeaconSDK-beta.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = "TenMaxBeaconSDK-beta.xcframework"; sourceTree = "<group>"; };
 		097323252DA3D81100227420 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		097323262DA3D81100227420 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		097323272DA3D81100227420 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,7 +43,6 @@
 		097323312DA4246200227420 /* NotificationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationHelper.swift; sourceTree = "<group>"; };
 		098829B92DD5E764001AF9F8 /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
 		098829BB2DD5F013001AF9F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		09AB65952E48D6CC00C81BA9 /* TenMaxBeaconSDK-release.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = "TenMaxBeaconSDK-release.xcframework"; sourceTree = "<group>"; };
 		09E608302E0277EC002C3F3E /* PermissionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionManager.swift; sourceTree = "<group>"; };
 		1A2B3C4D5E6F7G8H9I0J1K1A /* TenMaxBeaconPublicDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TenMaxBeaconPublicDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		571DCE372300A4549F435278 /* AppBeaconManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBeaconManager.swift; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09111BD62E48E40F005925DA /* TenMaxBeaconSDK-release.xcframework in Frameworks */,
+				09635FC92E5EDD35005B9F6C /* TenMaxBeaconSDK-beta.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,7 +81,7 @@
 		09AB65882E48D5A300C81BA9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				09AB65952E48D6CC00C81BA9 /* TenMaxBeaconSDK-release.xcframework */,
+				09635FC72E5EDD32005B9F6C /* TenMaxBeaconSDK-beta.xcframework */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
@@ -308,7 +308,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 10;
+				CURRENT_PROJECT_VERSION = 13;
 				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 992GT7RJ39;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -334,7 +334,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tenmax.beacon.demo.public;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -354,7 +354,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 10;
+				CURRENT_PROJECT_VERSION = 13;
 				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 992GT7RJ39;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -380,7 +380,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tenmax.beacon.demo.public;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
